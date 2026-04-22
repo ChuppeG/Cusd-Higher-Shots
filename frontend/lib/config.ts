@@ -15,7 +15,7 @@ export const CHAIN =
 
 export const CONTRACT_ADDRESS =
   (process.env.NEXT_PUBLIC_CONTRACT_ADDRESS as `0x${string}`) ||
-  "0x0000000000000000000000000000000000000000";
+  "0xe6ca154281FB8dC13459E7436f699A3846B038ec";
 
 // ── Wagmi Config ──────────────────────────────────────────────────────────────
 export const wagmiConfig = createConfig({
